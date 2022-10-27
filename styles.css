@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 11px;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 27rem 1fr;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+ #nav{
+    display: flex;
+    flex-direction: column;
+    border-right: 0.10rem solid black;
+}
+
+
+
+.line{
+    border-bottom: 0.10rem solid black;
+    margin-bottom: 1.2rem;
+}
+
+#nav h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+} 
+
+.nav-link{
+    display: flex;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    text-decoration: none;
+    color: black;
+}
+ 
+#main{
+    overflow-y: auto;
+    padding: 3rem 4rem;
+}
+
+section{
+    margin-top: 1rem;
+}
+
+#introduction{
+    width: 100%;
+    height: 19rem;
+}
+
+h2{
+font-weight: 500;
+padding-bottom: 1.5rem;
+
+}
+
+#introduction p{
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+#introduction li{
+    padding: 0rem 0px 1rem 4rem;
+}
+
+#What_you_should_already_know{
+    width: 100%;
+    height: 14rem;
+}
+
+#What_you_should_already_know p{
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+#What_you_should_already_know li{
+    padding: 0rem 0px 1rem 4rem;
+}
+
+#JavaScript_and_Java{
+    width: 100%;
+    height: 17rem;
+}
+
+#JavaScript_and_Java p{
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+#Hello_world{
+    width: 100%;
+    height: 13rem;
+}
+
+#Hello_world p{
+    padding: 1rem 2rem 1rem 0;
+}
+
+
+.code{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 80%;
+    background-color: #eeeeee;
+}
+
+.dcode{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 80%;
+    background-color: #eeeeee;
+}
+
+#Variables{
+    width: 100%;
+    height: 13rem;
+    margin-top: 4rem;
+}
+ 
+#Variables p{
+    padding-bottom: 1.5rem;
+}
+
+#Declaring_variables{
+    width: 100%;
+    height: 35rem;
+    margin-bottom: 3rem;
+}
+
+#Declaring_variables p{
+    padding: 1rem 2rem;
+}
+
+#Variable_scope{
+    width: 100%;
+    height: 23rem;
+    margin-bottom: 3rem;
+}
+
+#Variable_scope p{
+    padding: 1rem 2rem;
+}
+
+#Global_variables{
+    width: 100%;
+    height: 11rem;
+}
+
+#Global_variables p{
+    padding-bottom: 1.5rem;
+}
+
+#Constants{ 
+    width: 100%;
+    height: 36rem;
+}
+
+#Constants p{
+    padding: 1rem 2rem;
+} 
+
+#Data_types{
+    width: 100%;
+    height: 29rem;
+}
+
+#Data_types p{
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+#Data_types ul{
+    padding: 0rem 0px 1rem 4rem;
+}
+
+#Data_types li{
+    padding: 0rem 0px 1rem 8rem;
+}
+
+#if_else_statement{
+    width: 100%;
+    height: 51rem;
+}
+
+#if_else_statement p{
+    padding: 1rem 2rem;
+} 
+
+#while_statement{
+    width: 100%;
+    height: 45rem;
+}
+
+#while_statement p{
+    padding: 1rem 2rem;
+}
+
+#while_statement li{
+    padding: 0rem 0px 1rem 4rem;
+}
+
+#Function_declarations{
+    width: 100%;
+    height: 33rem;
+}
+
+#Function_declarations p{
+    padding: 1rem 2rem;
+}
+
+#Function_declarations li{
+    padding: 0rem 0px 1rem 4rem;
+}
+
+#Reference{
+    width: 100%;
+}
+
+#Reference li{
+    padding: 0rem 0px 1rem 4rem;
+}
