@@ -116,7 +116,7 @@ padding-bottom: 1.5rem;
     align-items: center;
     padding-left: 2rem;
     font-size: 80%;
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
 }
 
 .dcode{
@@ -125,8 +125,9 @@ padding-bottom: 1.5rem;
     align-items: center;
     padding-left: 2rem;
     font-size: 80%;
-    background-color: #eeeeee;
+    background-color: #f7f7f7;
 }
+
 
 #Variables{
     width: 100%;
