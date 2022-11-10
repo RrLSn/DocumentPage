@@ -8,12 +8,16 @@
     font-size: 11px;
 }
 
+body{
+    position: fixed;
+}
+
 .wrapper{
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 27rem 1fr;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: #ffffff;
 }
 
@@ -241,9 +245,15 @@ padding-bottom: 1.5rem;
         font-size: 10px;
     }
 
+    body{
+        position: fixed;
+    }
+
     .wrapper{
-        width: 97%;
+        width: 97vw;
+        height: 97vh;
         display: grid;
+        overflow-x: hidden;
         grid-template-columns: 10rem 1fr;
     }
 
@@ -308,7 +318,7 @@ padding-bottom: 1.5rem;
     }
 
     #JavaScript_and_Java{
-        height: 15rem;
+        height: 16rem;
     }
 
     #JavaScript_and_Java h2{
@@ -385,7 +395,7 @@ padding-bottom: 1.5rem;
     }
 
     #Variable_scope{
-        height: 11rem;
+        height: 12.5rem;
     }
 
     #Variable_scope h2{
@@ -400,7 +410,7 @@ padding-bottom: 1.5rem;
     }
 
     #Global_variables{
-        height: 8.5rem;
+        height: 9.5rem;
     }
 
     #Global_variables h2{
@@ -415,7 +425,7 @@ padding-bottom: 1.5rem;
     }
 
     #Constants{
-        height: 19rem;
+        height: 20rem;
     }
 
     #Constants h2{
