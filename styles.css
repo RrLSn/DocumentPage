@@ -109,7 +109,6 @@ padding-bottom: 1.5rem;
     padding: 1rem 2rem 1rem 0;
 }
 
-
 .code{
     height: 6rem;
     display: flex;
@@ -127,7 +126,6 @@ padding-bottom: 1.5rem;
     font-size: 80%;
     background-color: #f7f7f7;
 }
-
 
 #Variables{
     width: 100%;
@@ -244,7 +242,7 @@ padding-bottom: 1.5rem;
     }
 
     .wrapper{
-        width: 100%;
+        width: 97%;
         display: grid;
         grid-template-columns: 10rem 1fr;
     }
@@ -266,8 +264,8 @@ padding-bottom: 1.5rem;
     }
 
     #introduction{
-        width: 23rem;
-        height: 14rem;
+        width: 19rem;
+        height: 16rem;
         font-size: 0.7rem;
         margin-left: -3rem;
         margin-top: -2rem;
@@ -314,7 +312,6 @@ padding-bottom: 1.5rem;
     }
 
     #JavaScript_and_Java h2{
-        /* padding-bottom: 0.5rem; */
         font-size: 0.7rem;
     }
 
@@ -324,15 +321,216 @@ padding-bottom: 1.5rem;
         padding-bottom: 0.5rem;
     }
 
+    #Hello_world{
+        height: 11rem;
+    }
+
+    #Hello_world h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Hello_world p{
+        font-size: 0.5rem;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    .code{
+        height: 2rem;
+        width: 80%;
+        font-size: 0.3rem;
+        margin-left: 1.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .dcode{
+        height: 1rem;
+        width: 80%;
+        font-size: 0.3rem;
+        margin-left: 1.5rem;
+        padding-left: 0.5rem;
+    }
+
+    #Variables{
+        height: 10rem;
+    }
+
+    #Variables h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Variables p{
+        font-size: 0.5rem;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0;
+    }
+
+    #Declaring_variables{
+        height: 15.5rem;
+    }
+
+    #Declaring_variables h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Declaring_variables p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Variable_scope{
+        height: 11rem;
+    }
+
+    #Variable_scope h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Variable_scope p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Global_variables{
+        height: 8.5rem;
+    }
+
+    #Global_variables h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Global_variables p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Constants{
+        height: 19rem;
+    }
+
+    #Constants h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Constants p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Data_types{
+        height: 20rem;
+    }
+
+    #Data_types h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Data_types p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Data_types li{
+        font-size: 0.5rem;
+        padding: 0 0 0.5rem 2.5rem;
+    }
+
+    #if_else_statement{
+        height: 28rem;
+    }
+
+    #if_else_statement h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #if_else_statement p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #while_statement{
+        height: 26rem;
+    }
+
+    #while_statement h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #while_statement p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #while_statement li{
+        font-size: 0.5rem;
+        padding: 0 0 0.5rem 2.5rem;
+    }
+
+    #Function_declarations{
+        height: 20rem;
+    }
+
+    #Function_declarations h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Function_declarations p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Function_declarations li{
+        font-size: 0.5rem;
+        padding: 0 0 0.5rem 2.5rem;
+    }
+
+    #Reference h2{
+        font-size: 0.7rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #Reference p{
+        font-size: 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-top: 0;
+    }
+
+    #Reference li{
+        font-size: 0.5rem;
+        padding: 0 0 0.5rem 2.5rem;
+    }
+
+
+
     #What_you_should_already_know, #JavaScript_and_Java, #Hello_world, #Variables, #Declaring_variables, #Variable_scope, #Global_variables, #Constants, #Data_types{
-        width: 23rem;
+        width: 19rem;
         font-size: 0.7rem;
         margin-left: -3rem;
         margin-top: -2rem;
     }
 
     #if_else_statement, #while_statement, #Function_declarations, #Reference{
-        width: 23rem;
+        width: 19rem;
         font-size: 0.7rem;
         margin-left: -3rem;
         margin-top: -2rem;
