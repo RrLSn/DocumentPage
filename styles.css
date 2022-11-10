@@ -237,3 +237,106 @@ padding-bottom: 1.5rem;
 #Reference li{
     padding: 0rem 0px 1rem 4rem;
 }
+
+@media (max-width:640px){
+    :root{
+        font-size: 10px;
+    }
+
+    .wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+    }
+
+    #nav h2{
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+        margin-top: 0.3rem;
+    }
+
+    #nav a{
+        padding-bottom: 0.4rem;
+        padding-left: 1rem;
+        font-size: 0.6rem;
+    }
+
+    .line{
+        margin-bottom: 0.5rem;
+    }
+
+    #introduction{
+        width: 23rem;
+        height: 14rem;
+        font-size: 0.7rem;
+        margin-left: -3rem;
+        margin-top: -2rem;
+    }
+
+    #introduction h2{
+        padding-bottom: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    #introduction p{
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        font-size: 0.5rem;
+    }
+
+    #introduction li{
+        font-size: 0.5rem;
+        padding: 0 0 0.5rem 2.5rem;
+    }
+
+    #What_you_should_already_know{
+        height: 9rem;
+    }
+
+    #What_you_should_already_know h2{
+        padding-bottom: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    #What_you_should_already_know p{
+        font-size: 0.5rem;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #What_you_should_already_know li{
+        font-size: 0.5rem;
+        padding: 0 0 0.5rem 2.5rem;
+    }
+
+    #JavaScript_and_Java{
+        height: 15rem;
+    }
+
+    #JavaScript_and_Java h2{
+        /* padding-bottom: 0.5rem; */
+        font-size: 0.7rem;
+    }
+
+    #JavaScript_and_Java p{
+        font-size: 0.5rem;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #What_you_should_already_know, #JavaScript_and_Java, #Hello_world, #Variables, #Declaring_variables, #Variable_scope, #Global_variables, #Constants, #Data_types{
+        width: 23rem;
+        font-size: 0.7rem;
+        margin-left: -3rem;
+        margin-top: -2rem;
+    }
+
+    #if_else_statement, #while_statement, #Function_declarations, #Reference{
+        width: 23rem;
+        font-size: 0.7rem;
+        margin-left: -3rem;
+        margin-top: -2rem;
+    }
+
+
+}
